@@ -1,0 +1,279 @@
+body{
+
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: static;
+    padding-top: 0.1px ;
+
+}
+
+header{
+
+    background-color: #ffffff;
+    color: #8c52ff;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1.5px solid #ccc ;
+    position: fixed;
+    box-shadow: 2px 2px 4px 1px rgba(61, 61, 61, 0.1);
+    flex-wrap: wrap;
+    
+  
+   
+}
+
+.header-main-title{
+
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+         
+
+}
+
+.title-a{
+
+    color: #525a63;
+
+}
+
+header h1{
+
+    margin: 0px;
+    text-align: center;
+
+}
+
+header a{
+
+    text-decoration: none;
+    color: #1f2328;
+
+}
+
+.header-container{
+
+    display: flex;
+    
+
+
+}
+
+
+.header-navigation-container{
+
+    display: flex;
+    gap: 25px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+    
+    
+
+}
+
+.navigation-option-container{
+
+    width: fit-content;
+    
+
+}
+
+.navigation-option-container:hover{
+
+    scale: calc(1.07);
+    transition: 300ms;
+    font-weight: 400;
+
+}
+.navigation-option-container a:hover{
+
+
+    color: #8c52ff;
+
+}
+
+.navigation-option-container:hover .navigation-option-effect{
+
+    visibility: visible;
+    
+
+}
+
+.navigation-option-effect:empty{
+
+    height: 2px;
+    width: 100%;
+    background-color: #8c52ff;
+    border-radius: 40px;
+    visibility: hidden;
+
+}
+
+@media (max-width: 900px) {
+    .header-container {
+        justify-content: center;
+    }
+
+    .header-main-title {
+        width: 100%;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    .header-navigation-container {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    body{
+
+        font-size: small;
+
+    }
+
+}
+
+main {
+
+
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+    color: #1f2328;
+
+
+}
+
+article{
+
+    margin-bottom: 20px;
+
+}
+
+.download-button-container{
+
+background-color: #40cf40;
+padding: 20px;
+width: fit-content;
+border-radius: 8px;
+text-align: center;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 40px;
+
+}
+
+.download-button-container .download-button{
+
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+
+}
+
+.download-container .download-button-container:hover{
+
+    scale: calc(1.1);
+    transition: 300ms;
+    
+
+}
+
+.topic-container-title{
+
+display: flex;
+height: fit-content;
+gap: 20px;
+
+
+}
+
+.topic-title-effect:empty{
+
+width: 4px;
+background-color: #8c52ff;
+border-radius: 1px;
+
+}
+
+h2{
+
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+.image-control{
+
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+
+}
+
+img {
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+h3 {
+
+    background-color: #8c52ff;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    color: white;
+}
+.alt-button{
+
+background-color: white;
+color: #8c52ff;
+border: 2px solid #8c52ff;
+
+}
+
+.contact-button-container{
+
+    display: flex;
+    gap: 15px;
+
+}
+
+.linkedIn-button{
+
+    background-color:#0A66C2 ;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.linkedIn-button:hover{
+
+scale: calc(1.1);
+transition: 300ms;
+
+}
+
+footer{
+
+    background-color: #8c52ff;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+
+
+}
